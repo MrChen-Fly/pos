@@ -45,13 +45,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.HeaderPanel = new System.Windows.Forms.Panel();
             this.header_center = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.header_right = new System.Windows.Forms.Panel();
             this.header_left = new System.Windows.Forms.Panel();
             this.spxx_input = new System.Windows.Forms.TextBox();
             this.spmc_label = new System.Windows.Forms.Label();
             this.sp_input = new System.Windows.Forms.Label();
             this.label_network = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.MainPanel.SuspendLayout();
             this.CenterPanel.SuspendLayout();
             this.FootPanel.SuspendLayout();
@@ -208,6 +208,16 @@
             this.header_center.Size = new System.Drawing.Size(948, 150);
             this.header_center.TabIndex = 2;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(948, 150);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "上单信息";
+            // 
             // header_right
             // 
             this.header_right.Dock = System.Windows.Forms.DockStyle.Right;
@@ -261,16 +271,6 @@
             this.label_network.Size = new System.Drawing.Size(67, 15);
             this.label_network.TabIndex = 0;
             this.label_network.Text = "网络状态";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(948, 150);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "上单信息";
             // 
             // MainApp
             // 
