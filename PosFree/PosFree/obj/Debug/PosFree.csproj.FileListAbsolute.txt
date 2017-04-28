@@ -1,0 +1,12 @@
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\PosFree.exe.config
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\PosFree.exe
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\PosFree.pdb
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.csprojResolveAssemblyReference.cache
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.Properties.Resources.resources
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.csproj.GenerateResource.Cache
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.exe
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.pdb
+D:\workspace\vs2017\Frame\PosFree\PosFree\obj\Debug\PosFree.MainApp.resources
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\System.Data.SQLite.dll
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\System.Data.SQLite.pdb
+D:\workspace\vs2017\Frame\PosFree\PosFree\bin\Debug\System.Data.SQLite.dll.config
