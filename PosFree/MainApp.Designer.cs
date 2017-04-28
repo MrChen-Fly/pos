@@ -42,6 +42,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.hyk_info = new System.Windows.Forms.Panel();
             this.foot_null = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.HeaderPanel = new System.Windows.Forms.Panel();
             this.header_center = new System.Windows.Forms.Panel();
             this.header_right = new System.Windows.Forms.Panel();
@@ -50,13 +51,14 @@
             this.spmc_label = new System.Windows.Forms.Label();
             this.sp_input = new System.Windows.Forms.Label();
             this.label_network = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.MainPanel.SuspendLayout();
             this.CenterPanel.SuspendLayout();
             this.FootPanel.SuspendLayout();
             this.bd_info.SuspendLayout();
             this.foot_null.SuspendLayout();
             this.HeaderPanel.SuspendLayout();
+            this.header_center.SuspendLayout();
             this.header_left.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,6 +178,16 @@
             this.foot_null.Size = new System.Drawing.Size(1348, 40);
             this.foot_null.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+            // 
             // HeaderPanel
             // 
             this.HeaderPanel.Controls.Add(this.header_center);
@@ -189,6 +201,7 @@
             // 
             // header_center
             // 
+            this.header_center.Controls.Add(this.groupBox2);
             this.header_center.Dock = System.Windows.Forms.DockStyle.Fill;
             this.header_center.Location = new System.Drawing.Point(200, 0);
             this.header_center.Name = "header_center";
@@ -249,15 +262,15 @@
             this.label_network.TabIndex = 0;
             this.label_network.Text = "网络状态";
             // 
-            // label1
+            // groupBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(948, 150);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "上单信息";
             // 
             // MainApp
             // 
@@ -281,6 +294,7 @@
             this.foot_null.ResumeLayout(false);
             this.foot_null.PerformLayout();
             this.HeaderPanel.ResumeLayout(false);
+            this.header_center.ResumeLayout(false);
             this.header_left.ResumeLayout(false);
             this.header_left.PerformLayout();
             this.ResumeLayout(false);
@@ -312,6 +326,7 @@
         private System.Windows.Forms.Panel foot_null;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 
